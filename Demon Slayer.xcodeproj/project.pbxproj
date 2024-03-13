@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844434822BA0AFD500FBC20E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844434812BA0AFD500FBC20E /* AppDelegate.swift */; };
+		844434842BA0AFD500FBC20E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844434832BA0AFD500FBC20E /* SceneDelegate.swift */; };
+		844434862BA0AFD500FBC20E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844434852BA0AFD500FBC20E /* ViewController.swift */; };
+		8444348B2BA0AFD700FBC20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8444348A2BA0AFD700FBC20E /* Assets.xcassets */; };
+		8444348E2BA0AFD700FBC20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8444348C2BA0AFD700FBC20E /* LaunchScreen.storyboard */; };
+		844434962BA0AFF600FBC20E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844434952BA0AFF600FBC20E /* DataModel.swift */; };
+		8444349B2BA0B3C100FBC20E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444349A2BA0B3C100FBC20E /* Service.swift */; };
+		8444349D2BA0E77B00FBC20E /* AllCharacteresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444349C2BA0E77B00FBC20E /* AllCharacteresViewModel.swift */; };
+		8444349F2BA0EAC900FBC20E /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8444349E2BA0EAC900FBC20E /* CharactersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8444347E2BA0AFD500FBC20E /* Demon Slayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demon Slayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844434812BA0AFD500FBC20E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844434832BA0AFD500FBC20E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		844434852BA0AFD500FBC20E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8444348A2BA0AFD700FBC20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8444348D2BA0AFD700FBC20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8444348F2BA0AFD700FBC20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844434952BA0AFF600FBC20E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8444349A2BA0B3C100FBC20E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8444349C2BA0E77B00FBC20E /* AllCharacteresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharacteresViewModel.swift; sourceTree = "<group>"; };
+		8444349E2BA0EAC900FBC20E /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8444347B2BA0AFD500FBC20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844434752BA0AFD400FBC20E = {
+			isa = PBXGroup;
+			children = (
+				844434802BA0AFD500FBC20E /* Demon Slayer */,
+				8444347F2BA0AFD500FBC20E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8444347F2BA0AFD500FBC20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8444347E2BA0AFD500FBC20E /* Demon Slayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844434802BA0AFD500FBC20E /* Demon Slayer */ = {
+			isa = PBXGroup;
+			children = (
+				84CC53C42BA22327007C1835 /* Utils */,
+				84CC53C32BA22316007C1835 /* Service */,
+				84CC53C22BA2036E007C1835 /* Controller */,
+				844434992BA0B19D00FBC20E /* ViewModel */,
+				844434982BA0B19700FBC20E /* Model */,
+				844434972BA0B19000FBC20E /* View */,
+				8444348A2BA0AFD700FBC20E /* Assets.xcassets */,
+				8444348F2BA0AFD700FBC20E /* Info.plist */,
+			);
+			path = "Demon Slayer";
+			sourceTree = "<group>";
+		};
+		844434972BA0B19000FBC20E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8444349E2BA0EAC900FBC20E /* CharactersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		844434982BA0B19700FBC20E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				844434952BA0AFF600FBC20E /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		844434992BA0B19D00FBC20E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8444349C2BA0E77B00FBC20E /* AllCharacteresViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84CC53C22BA2036E007C1835 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				844434852BA0AFD500FBC20E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84CC53C32BA22316007C1835 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8444349A2BA0B3C100FBC20E /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84CC53C42BA22327007C1835 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				844434812BA0AFD500FBC20E /* AppDelegate.swift */,
+				844434832BA0AFD500FBC20E /* SceneDelegate.swift */,
+				8444348C2BA0AFD700FBC20E /* LaunchScreen.storyboard */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8444347D2BA0AFD500FBC20E /* Demon Slayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844434922BA0AFD700FBC20E /* Build configuration list for PBXNativeTarget "Demon Slayer" */;
+			buildPhases = (
+				8444347A2BA0AFD500FBC20E /* Sources */,
+				8444347B2BA0AFD500FBC20E /* Frameworks */,
+				8444347C2BA0AFD500FBC20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demon Slayer";
+			productName = "Demon Slayer";
+			productReference = 8444347E2BA0AFD500FBC20E /* Demon Slayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844434762BA0AFD400FBC20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8444347D2BA0AFD500FBC20E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 844434792BA0AFD400FBC20E /* Build configuration list for PBXProject "Demon Slayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844434752BA0AFD400FBC20E;
+			productRefGroup = 8444347F2BA0AFD500FBC20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8444347D2BA0AFD500FBC20E /* Demon Slayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8444347C2BA0AFD500FBC20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8444348E2BA0AFD700FBC20E /* LaunchScreen.storyboard in Resources */,
+				8444348B2BA0AFD700FBC20E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8444347A2BA0AFD500FBC20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844434862BA0AFD500FBC20E /* ViewController.swift in Sources */,
+				844434962BA0AFF600FBC20E /* DataModel.swift in Sources */,
+				8444349D2BA0E77B00FBC20E /* AllCharacteresViewModel.swift in Sources */,
+				8444349B2BA0B3C100FBC20E /* Service.swift in Sources */,
+				844434822BA0AFD500FBC20E /* AppDelegate.swift in Sources */,
+				8444349F2BA0EAC900FBC20E /* CharactersView.swift in Sources */,
+				844434842BA0AFD500FBC20E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8444348C2BA0AFD700FBC20E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8444348D2BA0AFD700FBC20E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844434902BA0AFD700FBC20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844434912BA0AFD700FBC20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844434932BA0AFD700FBC20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demon Slayer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karina.Demon-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844434942BA0AFD700FBC20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demon Slayer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "karina.Demon-Slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844434792BA0AFD400FBC20E /* Build configuration list for PBXProject "Demon Slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844434902BA0AFD700FBC20E /* Debug */,
+				844434912BA0AFD700FBC20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844434922BA0AFD700FBC20E /* Build configuration list for PBXNativeTarget "Demon Slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844434932BA0AFD700FBC20E /* Debug */,
+				844434942BA0AFD700FBC20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844434762BA0AFD400FBC20E /* Project object */;
+}
